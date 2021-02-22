@@ -25,3 +25,9 @@ ul {
   .active {
     background-color: #616161;
   }
+
+footer {
+    background-color: #e3e0cc;
+    display: flex;
+    justify-content: flex-end; 
+}
