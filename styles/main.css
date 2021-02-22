@@ -35,3 +35,8 @@ footer {
     display: flex;
     justify-content: flex-end; 
 }
+
+.ddmakelisthorizontal {
+  display: flex;
+  flex-direction: column;
+}
