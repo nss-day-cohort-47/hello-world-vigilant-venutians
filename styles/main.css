@@ -65,7 +65,12 @@ footer {
     justify-content: flex-end; 
 }
 
-.ddmakelisthorizontal {
+.ddmakelistvertical {
   display: flex;
   flex-direction: column;
 }
+
+.column {
+  column-count: 3; /* For Safari/Chrome */
+  
+  }
