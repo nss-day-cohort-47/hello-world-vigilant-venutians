@@ -3,7 +3,7 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 .headerimage {
@@ -24,8 +24,7 @@
 }
 
 html {
-    //This define what 1rem is
-    font-size: 62.5%; // 1rem 10 / 16px 
+    font-size: 62.5%;
 }
 .navul {
     list-style-type: none;
@@ -69,8 +68,15 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
 .column {
   column-count: 3; /* For Safari/Chrome */
   
-  }
+}
+.img_homepg__link{
+  height: 15rem;
+  width: auto;
+}
+.div_homepgimages{
+  display: flexbox;
+  justify-content: centergit ;
+}
