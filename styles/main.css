@@ -80,3 +80,17 @@ footer {
   display: flexbox;
   justify-content: centergit ;
 }
+.landmarks {
+  border: 1px solid black;
+  width: 33%;
+  list-style-position: inside;
+}
+.people {
+  border: 1px solid black;
+  width: 33%;
+  list-style-position: inside;
+}
+.cities {
+  border: 1px solid black;
+  width: 33%
+}
