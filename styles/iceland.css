@@ -1,0 +1,8 @@
+.iceland {
+    /* display: flex; */
+    height: 250px;
+    background-image: url('/images/reykjavik-iceland-city-scape-from-the-top-with-hallgrimskirkja-church.jpg');
+    opacity: .7;
+    background-size: auto 100%;
+}
+
