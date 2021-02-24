@@ -79,7 +79,7 @@ footer {
 .cities {
   border: 1px solid #000000;
   width: 33%;
-  
+  list-style-position: inside;
 }
 section {
   background-color: #9fa9a3;
