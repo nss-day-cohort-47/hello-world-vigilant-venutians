@@ -1,4 +1,16 @@
 @import "navbar.css";
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+  }
+}
+
+div {
+  background-color: #f0f0f0;
+}
+
 *,
 *::after,
 *::before {
@@ -9,19 +21,21 @@
 
 .headerimage {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; 
+  align-items: center;
   justify-content: center;
 }
 
 .travellogo {
   display: flex;
-  max-height: 250px;
+  border-radius: 10px;
+  max-height: 100px;
 }
 
 .pageimage {
   display: flex;
   width: 100%;
-  max-height: 250px;
+  max-height: 180px;
 }
 
 html {
