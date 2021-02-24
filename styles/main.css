@@ -28,6 +28,11 @@ html {
     font-size: 62.5%;
 }
 
+.div_homepgimages{	
+  display: flexbox;	s
+  justify-content: center ;	
+}
+
 footer {
     background-color: #e3e0cc;
     display: flex;
